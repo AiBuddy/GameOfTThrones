@@ -74,6 +74,9 @@ def selectContinents():
         essos()
     elif "3" in select:
         sothoryos()
+    else:
+        print("No choice matched, try again! ")
+        selectContinents()
 
 def stop():
     print("Ok, No problem. I will find someone else")
