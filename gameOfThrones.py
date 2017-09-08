@@ -22,6 +22,11 @@ def westeros():
     print("We are in Westeros")
     if "westeros" in placeOfDanny.selectPlace:
         print("Dany is in westeros")
+        playAgain = input("Want to Play Again? ")
+        if "yes" in playAgain:
+            start()
+        else:
+            stop()
     else:
         print("Dany is not here")
         print("Go to another place")
@@ -32,6 +37,11 @@ def essos():
     print("Lets go Essos.")
     if "essos"  in placeOfDanny.selectPlace:
         print("Dany is in essos")
+        playAgain = input("Want to Play Again? ")
+        if "yes" in playAgain:
+            start()
+        else:
+            stop()
     else:
         print("Dany is not here")
         print("Go to another place")
@@ -40,8 +50,14 @@ def essos():
 
 def sothoryos():
     print("Lets go Sothoryos")
+
     if "sothoryos" in placeOfDanny.selectPlace:
         print("Dany is in sothoryos")
+        playAgain = input("Want to Play Again? ")
+        if "yes" in playAgain:
+            start()
+        else:
+            stop()
     else:
         print("Dany is not here")
         print("Go to another place")
